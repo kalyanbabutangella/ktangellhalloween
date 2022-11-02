@@ -20,12 +20,14 @@ body{
   font-weight: 800;
   text-indent: 50px;
   margin: 0px !important;
+  font-size: 40px;
 }
 
 .sub-heading{
   text-indent: 50px;
   font-weight: 700;
   margin-top: 0px !important;
+  font-size: 21px;
 }
 
 header{
