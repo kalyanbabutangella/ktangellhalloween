@@ -95,6 +95,7 @@ em{
   margin: 0;
   padding: 0;
   position: relative;
+  background-color: #000000;
 }
 
 #nav_menu ul li {
@@ -109,6 +110,7 @@ em{
   text-decoration: none;
   background-color: #000000;
   color: white;
+  font-weight: 600;
 }
 
 #nav_menu a.current {
@@ -176,5 +178,29 @@ em{
   main{
     box-shadow: none;
     width: 95%;
+  }
+  #nav_menu ul li a{
+    width: 19vw;
+  }
+}
+
+/* @media only screen and (max-width: 720px) {
+  .main-heading{
+    text-indent: 20px;
+    font-size: 31px;
+  }
+  .sub-heading{
+    text-indent: 20px;
+  }
+} */
+
+@media only screen and (max-width: 720px) {
+  .main-heading{
+    text-indent: 15px;
+    font-size: 28px;
+  }
+  .sub-heading{
+    text-indent: 15px;
+    font-size: 19px;
   }
 }
